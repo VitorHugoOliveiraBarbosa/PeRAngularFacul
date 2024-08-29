@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { ClientListComponent } from './pages/client-list/client-list.component';
 import { Component1Component } from './components/component1/component1.component';
 import { HeaderComponent } from './components/header/header.component';
+import { HoursListComponent } from './pages/hours-list/hours-list.component';
 
 
 @NgModule({
@@ -14,6 +15,7 @@ import { HeaderComponent } from './components/header/header.component';
     ClientListComponent,
     Component1Component,
     HeaderComponent,
+    HoursListComponent,
   ],
   imports: [
     BrowserModule,
