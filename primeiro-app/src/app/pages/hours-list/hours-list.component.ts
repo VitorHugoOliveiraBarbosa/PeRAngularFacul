@@ -6,5 +6,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./hours-list.component.css']
 })
 export class HoursListComponent {
-  horarios = "12:00h "
+  horarios = "12:00h";
 }

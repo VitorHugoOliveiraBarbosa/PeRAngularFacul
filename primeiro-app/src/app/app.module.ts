@@ -7,6 +7,7 @@ import { ClientListComponent } from './pages/client-list/client-list.component';
 import { Component1Component } from './components/component1/component1.component';
 import { HeaderComponent } from './components/header/header.component';
 import { HoursListComponent } from './pages/hours-list/hours-list.component';
+import { FormsModule } from '@angular/forms';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { HoursListComponent } from './pages/hours-list/hours-list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
