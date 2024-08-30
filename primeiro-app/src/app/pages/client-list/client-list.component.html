@@ -1,6 +1,7 @@
-<p>Pagina de clientes</p>
-<ul>
-  <li>Cliente 1</li>
-  <li>Cliente 2</li>
-  <li>Cliente 3</li>
-</ul>
+<h2>Pagina de clientes</h2>
+<div *ngIf="ClientePremium; else naopremium">
+  <p>Você é um cliente Premium</p>
+</div>
+<ng-template #naopremium >
+    <p>Você não é premium</p>
+</ng-template>

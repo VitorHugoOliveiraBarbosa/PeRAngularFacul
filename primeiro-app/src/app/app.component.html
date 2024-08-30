@@ -1,4 +1,17 @@
 <h1>home</h1>
 <app-header></app-header>
 <router-outlet></router-outlet>
-
+<hr>
+<ul *ngFor="let valor of valores">
+  <li>{{valor.nome}} - {{valor.idade}}</li>
+  <hr>
+</ul>
+<label for="">Digite um nome:  </label>
+<br>
+<input [(ngModel)]="nome1">
+<br>
+<label for="">Digite sua idade: </label>
+<br>
+<input [(ngModel)]="idade1">
+<br>
+<button (click)="Adiciona()">Adiciona item</button>

@@ -8,6 +8,8 @@ import { Component1Component } from './components/component1/component1.componen
 import { HeaderComponent } from './components/header/header.component';
 import { HoursListComponent } from './pages/hours-list/hours-list.component';
 import { FormsModule } from '@angular/forms';
+import { ProdutosComponent } from './pages/produtos/produtos.component';
+import { ProdutosDetalhesComponent } from './pages/produtos-detalhes/produtos-detalhes.component';
 
 
 @NgModule({
@@ -17,6 +19,8 @@ import { FormsModule } from '@angular/forms';
     Component1Component,
     HeaderComponent,
     HoursListComponent,
+    ProdutosComponent,
+    ProdutosDetalhesComponent,
   ],
   imports: [
     BrowserModule,
